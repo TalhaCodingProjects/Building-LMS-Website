@@ -197,6 +197,43 @@ body {
     text-shadow: 2px 2px 2px gray;
 }
 
+.banner-buttons button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 30px 45px;
+    cursor: pointer;
+    border: 2px solid #009688;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+
+.banner-buttons span{
+    background: #12af37;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+button span:hover{
+    width: 100%;
+}
+
+button:hover{
+    border: none;
+}
+
+
+
 .firstpara {
     font-size: 1.2rem;
     margin-top: 11px;
