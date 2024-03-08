@@ -208,14 +208,17 @@ body {
     border: 2px solid #009688;
     position: relative;
     overflow: hidden;
+    background: transparent;
    
 }
 
 
 .banner-buttons span{
-    background: #12af37;
+    background-color: #46c6e6;
+
+
     height: 100%;
-    width: 0;
+    width: 0%;
     border-radius: 25px;
     position: absolute;
     left: 0;
@@ -224,12 +227,14 @@ body {
     transition: .5s;
 }
 
-button span:hover{
-    width: 100%;
+.banner-buttons button:hover span{
+  width: 100%;
 }
 
-button:hover{
-    border: none;
+.banner-buttons button:hover{
+  border: none;
+  color: white;
+  font-size: 1rem;
 }
 
 
