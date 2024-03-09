@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi&family=Oswald&family=Playpen+Sans:wght@300&family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Universal selectors */
-* {
+*{
   margin: 0px;
   padding: 0px;
 }
@@ -270,40 +270,56 @@ body {
 
 .recommended-section-1{
   width: 27%;
-  height: 60vh;
+  font-family: "Poppins", sans-serif;
+  height: 63vh;
   margin-left: 3rem;
-  background-color: aliceblue;
+  background-color: rgb(242, 242, 242);
   border-radius: 22px;
-  border: 20px solid #88e7c3;
+  /* border: 20px solid #88e7c3; */
 }
 
 
 .recommended-image img{
   width: 24rem;
-  border-radius: 4px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
-.recommended-section-2{
-  background-color: rgb(210, 151, 34);
-  height: 53%;
-  border-radius: 6px;
-}
 
 .recommended-text{
   /* margin: 13px; */
-  color: white;
+  color: black;
 }
 
 .recommended-text h1{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  /* margin: 8px; */
+  font-size: 20px;
+  font-weight: 500;
   padding-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 1.3rem;
 }
 
 .recommended-text p{
-  padding: 6px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-left: 1.3rem;
+  padding-top: 0.40rem
+}
+
+.recommended-buttons{
+  padding-top: 0.90rem;
+  padding-left: 1.6rem;
+}
+
+.recommended-buttons button{
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  background-color: purple;
+  /* color: hite; */
+}
+
+.recommended-buttons button a{
+  color: white;
+  font-weight: 600;
 }
 
 .testimonials{
