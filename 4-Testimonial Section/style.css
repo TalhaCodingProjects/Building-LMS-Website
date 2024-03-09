@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universal selectors */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins' , sans-serif;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+/* Testimonial section     */
+
+.testimonials{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .testimonial-heading{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+  
+  .testimonial-section-1{
+    width: 40%;
+    /* margin-left: 2rem; */
+    background-color: rgb(243, 240, 240);
+    border-radius: 8px;
+    box-shadow: 10px 10px 12px gray;
+  }
+  
+  .testimonial-para{
+    padding-left: 10px;
+    /* padding-top: 4px; */
+  }
+  
+  .testimonial-sign{
+    padding: 10px;
+  }
+  
+  .testimonial-sign i{
+    font-size: 2rem;
+  }
+  
+  .testimonial-name{
+    padding-top: 7px;
+    padding-left: 9px;
+    padding-bottom: 4px;
+    font-weight: bold;
+  }
